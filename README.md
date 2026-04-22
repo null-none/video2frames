@@ -100,7 +100,7 @@ python video2frames.py input.mp4 dataset/train
 
 2. All three splits (shell):
 ```bash
-python video2frames.py input.mp4 dataset/train --maxframes=500
-python video2frames.py input.mp4 dataset/val   --maxframes=100
-python video2frames.py input.mp4 dataset/test  --maxframes=100
+python3 video2frames.py input.mp4 dataset/train --maxframes=550
+python3 video2frames.py input.mp4 dataset/val   --maxframes=120
+python3 video2frames.py input.mp4 dataset/test  --maxframes=120
 ```
